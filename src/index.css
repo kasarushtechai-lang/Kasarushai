@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Kanit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #000000;
+    background-color: #f4f4f5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kanit', 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+  }
+}
+
+/* Bold Typography Utility Accents */
+.neo-border {
+  border: 3px solid #000000;
+}
+
+.neo-border-2 {
+  border: 2px solid #000000;
+}
+
+.neo-shadow {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.neo-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+
+.neo-shadow-lg {
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+/* Official Google Sign-In button styles required by Google Brand guidelines */
+.gsi-material-button {
+  user-select: none;
+  -webkit-appearance: none;
+  background-color: #ffffff;
+  border: 1px solid #747775;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  cursor: pointer;
+  font-family: 'Roboto', 'Sarabun', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  letter-spacing: 0.25px;
+  outline: none;
+  overflow: hidden;
+  padding: 0 14px;
+  position: relative;
+  text-align: center;
+  transition: background-color .2s, border-color .2s, box-shadow .2s;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gsi-material-button:hover {
+  background-color: #f8f9fa;
+  border-color: #5f6368;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+}
+
+.gsi-material-button:active {
+  background-color: #eeeeee;
+}

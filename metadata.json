@@ -1,0 +1,6 @@
+{
+  "name": "School Document Hub",
+  "description": "ระบบจัดเก็บและจัดการข้อมูลเอกสารโรงเรียน เชื่อมต่อกับ Google Drive อย่างปลอดภัย",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
